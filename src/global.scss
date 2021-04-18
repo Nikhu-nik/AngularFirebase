@@ -24,3 +24,27 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+*{
+  font-family: 'Oswald',
+}
+.alertclass 
+{
+  .alert-wrapper{
+    background: #5e215e;
+}
+  }
+  .alert-title{
+    text-align: center;
+    font-size: 22px;
+    color:#FFFF;
+  }
+  #alert-2-hdr{
+    color:white;
+  }
+  #alert-2-msg{
+    font-size: 13px;
+    font-size: 11px;
+    color:white;
+  }
+
+

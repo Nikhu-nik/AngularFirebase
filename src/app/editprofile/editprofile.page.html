@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>editprofile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label position="stacked">Full Name</ion-label>
+      <ion-input required type="text" [(ngModel)]="name" ></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Email</ion-label>
+      <ion-input required type="text" [(ngModel)]="email" ></ion-input>
+    </ion-item>
+
+  
+
+    <ion-button (click)="edit()">update profile</ion-button>
+  </ion-list>
+</ion-content>
